@@ -1,0 +1,46 @@
+{
+  "profesionales": [
+    {
+      "id": 1,
+      "nombre": "Laura",
+      "apellido": "Gomez"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Lucia",
+      "apellido": "Rodriguez"
+    },
+    {
+      "id": 2,
+      "nombre": "Lucia",
+      "apellido": "Rodriguez"
+    },
+    {
+      "id": 3,
+      "nombre": "Lucia",
+      "apellido": "Rodriguez"
+    }
+  ],
+  "disponibilidades": [
+    {
+      "id": 1,
+      "profesionalId": 1,
+      "fecha": "2026-10-15",
+      "hora": "11:00",
+      "disponible": true
+    }
+  ],
+  "turnos": [
+    {
+      "id": 1,
+      "profesionalId": 1,
+      "clienteId": 1,
+      "disponibilidadId": 1,
+      "fecha": "2026-10-15",
+      "hora": "11:00",
+      "estado": "cancelado"
+    }
+  ]
+}
